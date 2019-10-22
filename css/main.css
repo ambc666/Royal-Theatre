@@ -1,0 +1,117 @@
+*{
+    box-sizing: content-box; /*This is my standard accross all browsers*/
+    margin: 0;
+    padding: 0;
+/*    background-color: #2BAE2B; */
+    background-color: #000;
+}
+.main-logo{
+    position: absolute;  bottom: -30px; left: 30px;
+}
+.navbar-default .navbar-nav>li>a{ /******************************Navigation**********************************/
+    color: #fff;
+    border: 0.5px solid #fff;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Lato", "Cabin", sans-serif;
+    background-color: #94002A;
+}
+.navbar-default .navbar-nav>li>a:hover{ /*****************My hover on normal nav***************/
+    color: #fff;
+    background-color: #004B83;
+}
+/***************************Navigation End Here********************************/
+
+/******************************Header starts**********************************/
+h1{
+    margin-top: 100px;
+    font-size: 55px;
+    font-weight: bold;
+    color: #94002A;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-family: "Patua One", serif;
+}
+/******************************Headings & Main body****************************/
+h2{ 
+    background-color: #004B83;
+    font-family: "Pridi", serif;
+    color: #fff;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border: 0.5px solid #fff;  
+}
+body{
+    font-family: "Cabin", sans-serif;
+    color: #fff;
+}
+.seatplanimg{
+    margin-bottom: 5em;
+    margin-top: 3em;
+}
+.googlemap{/*This is my map on about*/
+    width: 512px;
+    height: 256px;
+    margin-top: 4em;
+    margin-bottom: 3em;
+    border: 3px solid #fff;
+}
+.bg-5{ /*This is the images on homepage as a selective group*/
+    margin-top: 30px;
+    margin-bottom: 25px;    
+}
+/**************************Forms****************************/
+.productionsform{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.genreform{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.dateform{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/*********************Footer**********************************/
+
+.bg-3{ /* Footer*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #94002A;
+}
+.bg-4{
+    background-color: #94002A;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+.footer-text{
+    color: #fff;
+    background-color: #94002A;
+}
+/*******************************Breakpoint*******************************/
+@media screen and (max-width: 1180px){ 
+    .seatplanimg{
+        width: 75%;
+    }
+}
+/*******************************Tablet CSS*******************************/
+@media screen and (max-width: 768px){ 
+    .main-logo{
+        visibility: hidden;
+    }
+    .seatplanimg{
+        width: 75%;
+    }
+    .googlemap{
+        width: 50%;
+    }
+}
+/*******************************Mobile CSS*******************************/
+
+@media screen and (max-width: 480px){ 
+    .main-logo{
+        visibility: hidden;
+    }
+}
